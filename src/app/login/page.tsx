@@ -152,22 +152,6 @@ export default function LoginPage() {
             </button>
           </form>
 
-          {/* Seed admin helper hint */}
-          <div
-            style={{
-              marginTop: '22px',
-              padding: '12px 14px',
-              backgroundColor: '#f8fafc',
-              borderRadius: 'var(--radius-md)',
-              border: '1px solid var(--border-subtle)',
-              fontSize: '0.78rem',
-              color: 'var(--text-muted)',
-            }}
-          >
-            <strong>Akun Master Admin Pertama:</strong>
-            <div>Username: <code style={{ color: 'var(--primary)', fontWeight: 'bold' }}>admin</code></div>
-            <div>Password: <code style={{ color: 'var(--primary)', fontWeight: 'bold' }}>AdminPassword123!</code></div>
-          </div>
 
           <div
             style={{
